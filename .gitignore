@@ -39,3 +39,9 @@
 
 # debug information files
 *.dwo
+# Create .gitignore file
+echo "tempCodeRunnerFile.cpp" >> .gitignore
+echo "*.exe" >> .gitignore
+git add .gitignore
+git commit -m "Add gitignore for temp files"
+git push origin mainclass_practice.cpp
